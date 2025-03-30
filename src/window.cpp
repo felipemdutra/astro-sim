@@ -11,7 +11,7 @@ namespace astro::graphics {
 
 using namespace std;
 
-Window* window_create(const int width, const int height, string& title) {
+Window* window_create(const int width, const int height, string title) {
     Window* w = new Window;
     w->width = width;
     w->height = height;
